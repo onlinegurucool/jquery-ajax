@@ -1,7 +1,7 @@
 $(window).on("load", function () {
     $("#getDataBtn").on("click", function () {
         $.ajax({
-            url: "https://jsonplaceholder.typicode.com/use232rs", //API URL
+            url: "https://jsonplaceholder.typicode.com/users", //API URL
             type: "GET", // GET OR POST,
             beforeSend: function () {
                 // This function calls before ajax API Hits
